@@ -17,7 +17,7 @@ bot.on('ready', (message) => {
 				const id = "417693206122201091";
 				//const channel = bot.channels.get(id);
 				//channel.send('```'+msg+'```')
-				bot.channels.get(id).send(msg)
+				bot.channels.get('432182565273600019').send(msg)
 		}
 		tempUser=msg;
 		res.send('Hello World')	
